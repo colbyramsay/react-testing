@@ -3,7 +3,6 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  perspective: 800px;
 }
 
 .logo {
@@ -21,10 +20,10 @@
 
 @keyframes logo-spin {
   from {
-    transform: rotate3d(1, 2, -1, 0);
+    transform: rotate(0deg);
   }
   to {
-    transform: rotate3d(1, 2, -1, 360deg);
+    transform: rotate(360deg);
   }
 }
 
